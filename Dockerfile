@@ -1,7 +1,7 @@
-FROM python:3.6-alpine
+FROM python:3.7-alpine
 
-RUN mkdir /code
-WORKDIR /code
+RUN mkdir /app
+WORKDIR /app
 
 RUN pip install black
 
